@@ -2,17 +2,20 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Simulador de Tienda Virtual</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <title>Tienda Virtual - Entrega 2</title>
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
   <div class="container">
-    <h1>Simulador de Tienda Virtual</h1>
-    <p>
-      Este proyecto es un simulador simple de tienda online. Permite al usuario interactuar desde la consola para ver productos disponibles,
-      elegir qué comprar y obtener un resumen de su compra.
-    </p>
-    <p class="mensaje">→ Abrí la consola del navegador (F12) para comenzar la simulación.</p>
+    <h1>🛒 Simulador de Tienda Virtual</h1>
+    <p>Seleccioná productos y agregalos a tu carrito. Tu compra será almacenada en tu navegador.</p>
+
+    <div id="productos" class="productos"></div>
+
+    <h2>🛍️ Carrito</h2>
+    <ul id="carrito" class="carrito"></ul>
+    <p id="total">Total: $0</p>
+    <button id="vaciarCarrito">Vaciar Carrito</button>
   </div>
 
   <script src="js/simulador.js"></script>
